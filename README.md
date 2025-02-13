@@ -1,6 +1,5 @@
 # Project1
 Mini codes of javascript          
-->Calculator                
-->Form        
+->Calculator                        
 ->Home
-->Registration Form
+
