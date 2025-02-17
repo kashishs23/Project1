@@ -1,0 +1,83 @@
+<html>
+<title>My Page</title>
+<head>
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active{
+   background-color: #04AA6D;
+}
+</style>
+<script>
+function add()
+{
+var a,b,c;
+a=parseInt(window. prompt("enter the no"));
+b=parseInt(window. prompt("enter the no"));
+c=a+b;
+document. write("your output is ="+c);
+}
+function sub()
+{
+var a,b,c;
+a=parseInt(window. prompt("enter the no"));
+b=parseInt(window. prompt("enter the no"));
+c=a-b;
+document. write("your output is ="+c);
+}
+function multi()
+{
+var a,b,c;
+a=parseInt(window. prompt("enter the no"));
+b=parseInt(window. prompt("enter the no"));
+c=a*b;
+document. write("your output is ="+c);
+}
+function divd()
+{
+var a,b,c;
+a=parseInt(window. prompt("enter the no"));
+b=parseInt(window. prompt("enter the no"));
+c=a/b;
+document. write("your output is ="+c);
+}
+</script>
+<body>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="Add.html">Add</a></li>
+<li><a href="Factorial.html">Factorial</a></li>
+<li><a href="Table.html">Table</a></li>
+<li><a href=" Reverse table.html">Reverse Table</a></li>
+<li><a href="Even,odd.html">Even and Odd Number</a></li>
+<li><a href="Prime number.html">Prime Number</a></li>
+<li><a href="Digit reverse.html">Digit Reverse</a></li>
+<li><a href="sum and reverse.html">Digit Sum And Reverse</a></li>
+</ul>
+<br>
+<button onclick="add()">add</button>
+<button onclick="multi()">multi</button>
+<button onclick="sub()">sub</button>
+<button onclick="divd()">divd</button>
+
+</body>
+</html
